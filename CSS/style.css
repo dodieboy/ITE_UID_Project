@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.Nav {
+    width: 100%;
+    background-color: aquamarine;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    padding: 0 25%;
+}
+
+nav li {
+    float: left;
+    width: 20%;
+}
+
+nav li a {
+    display: block;
+    color: #818181;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+.Logo {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+
+.Logo img {
+    width: 250px;
+    height: 70px;
+}
+
+.Container {
+    text-align: center;
+    margin-top: 35px;
+    position: absolute;
+    padding: 0 5%;
+    z-index: 1;
+    width: 90%;
+}
+
+.contant {
+    width: 100%;
+    border-top: solid 1px black;
+    margin-top: 20px
+}
