@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Localvore | Home</title>
     <link rel="icon" href="img/logo2.png">
-    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <link href="CSS/Style2.css" rel="stylesheet" type="text/css">
     <link href="CSS/slide.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="JS/jquery-3.3.1.min.js"></script>
     <script src="JS/js.js"></script>
 </head>
 
 <body>
-    <div class="Nav">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="Contact.html">Contact Us</a></li>
-                <li><a href="Subscribe.html">Subscribe</a></li>
-            </ul>
-        </nav>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="AboutUs.html">About Us</a>
+        <a href="Contact.html">Contact Us</a>
+        <a href="Subscribe.html">Subscribe</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
         <div class="Logo">
             <img src="res/title.jpg" width="900" height="900" />
         </div>
@@ -32,22 +32,22 @@
             <div class="slideshow-container">
                 <div class="mySlides fade">
                     <div class="numbertext">1 / 4</div>
-                    <img src="res/img1.jpg" class="slideImg">
+                    <img src="res/ss1.jpg" class="slideImg">
                     <div class="text">Caption Text</div>
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext">2 / 4</div>
-                    <img src="res/img2.jpg" class="slideImg">
+                    <img src="res/ss2.jpg" class="slideImg">
                     <div class="text">Caption Two</div>
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext">3 / 4</div>
-                    <img src="res/img3.jpg" class="slideImg">
+                    <img src="res/ss3.jpg" class="slideImg">
                     <div class="text">Caption Three</div>
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext">4 / 4</div>
-                    <img src="res/img4.jpg" class="slideImg">
+                    <img src="res/ss4.jpg" class="slideImg">
                     <div class="text">Caption Four</div>
                 </div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -63,20 +63,43 @@
         </div>
         <div class="contant" id="contant1">
             <div class="header">
-                <h2>Chinese</h2>
+                <h2>Chinese Food</h2>
             </div>
             <div class="artical">
-                <p>jhsfcjnej joddjvoewj jewoifjcodhvuo jdoivjoewj sajfohaeoi</p>
+                <img src="res/food.jpg" />
+                <img src="res/food.jpg" />
+                <img src="res/food.jpg" />
+                <img src="res/food.jpg" />
+                <img src="res/food.jpg" />
+                <img src="res/food.jpg" />
             </div>
         </div>
         <div class="contant" id="contant2">
             <div class="header">
-                <h2>Malay</h2>
+                <h2>Malay Food</h2>
             </div>
             <div class="artical">
-                <p>jhsfcjnej joddjvoewj jewoifjcodhvuo jdoivjoewj sajfohaeoi</p>
+                <img src="res/food.jpg" />
+                <img src="res/food.jpg" />
+                <img src="res/food.jpg" />
+                <img src="res/food.jpg" />
+                <img src="res/food.jpg" />
+                <img src="res/food.jpg" />
             </div>
         </div>
+        <footer>
+            <p>© 2019 Localvore Inc. All Rights Reserved</p>
+        </footer>
     </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
     <script src="JS/slide.js"></script>
 </body>

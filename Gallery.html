@@ -8,59 +8,63 @@
     <link rel="icon" href="img/logo2.png">
     <link href="CSS/style.css" rel="stylesheet" type="text/css">
     <link href="CSS/slide.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="JS/jquery-3.3.1.min.js"></script>
     <script src="JS/js.js"></script>
 </head>
 
 <body>
-    <div class="Nav">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="Contact.html">Contact Us</a></li>
-                <li><a href="Subscribe.html">Subscribe</a></li>
-            </ul>
-        </nav>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="AboutUs.html">About Us</a>
+        <a href="Contact.html">Contact Us</a>
+        <a href="Subscribe.html">Subscribe</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
         <div class="Logo">
             <img src="res/title.jpg" width="900" height="900" />
         </div>
     </div>
     <div class="Container">
-        <img src="res/Subscribe header.png"/>
-        </div>
-        
+        <img src="res/Subscribe header.png" />
+
+
         <div class="gallery" id="contant1">
             <div class="header">
                 <h2>Gallery</h2>
             </div>
             <div class="artical">
-                <img style="width:200px;height:200px;" src="../Project food/nasikangkang.JPG"/>
-                 <img style="width:200px;height:200px;" src="../Project food/bw.JPG"/>
-                  <img style="width:200px;height:200px;" src="../Project food/chic.JPG"/>
-                  </div>
-                  
-                  <div class="artical">
-                   <img style="width:200px;height:200px;" src="../Project food/rojak.JPG"/>
-                    <img style="width:200px;height:200px;" src="../Project food/popiah.JPG"/>
-                    </div>
-                      
-                  <div class="artical">
-                   <img style="width:200px;height:200px;" src="../Project food/wanton.JPG"/>
-                    <img style="width:200px;height:200px;" src="../Project food/pig2.JPG"/>
-                    <img style="width:200px;height:200px;" src="../Project food/kt2.JPG"/>
-                    </div>
+                <img style="width:200px;" src="res/DSC_0811.JPG" />
+                <img style="width:200px;" src="res/DSC_0814.JPG" />
+                <img style="width:200px;" src="res/DSC_0818.JPG" />
             </div>
-        </div>
-        <div class="gallery" id="contant2">
-            <div class="header">
-                <h2>Malay</h2>
-            </div>
+
             <div class="artical">
-                <p>jhsfcjnej joddjvoewj jewoifjcodhvuo jdoivjoewj sajfohaeoi</p>
+                <img style="width:200px;" src="res/DSC_0819(1).JPG" />
+                <img style="width:200px;" src="res/DSC_0816.JPG" />
+            </div>
+
+            <div class="artical">
+                <img style="width:200px;" src="res/20190202_113349.jpg" />
+                <img style="width:200px;" src="res/20190202_150949.jpg" />
+                <img style="width:200px;" src="res/20190202_135033.jpg" />
             </div>
         </div>
+        <footer>
+            <p>© 2019 Localvore Inc. All Rights Reserved</p>
+        </footer>
     </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
     <script src="JS/slide.js"></script>
 </body>
