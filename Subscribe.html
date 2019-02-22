@@ -1,5 +1,4 @@
 <!doctype html>
-<html>
 
 <head>
     <meta charset="utf-8">
@@ -28,18 +27,22 @@
         </div>
     </div>
     <div class="Container">
-        <img src="res/Subscribe header.png" />
+        <div class="header">
+            <img src="res/Subscribe header.png" />
+        </div>
         <div class="content">
-            <div class="input">
-                <h3>Name</h3>
-                <input type="text" id="name" name="name">
-            </div>
-            <div class="input">
-                <h3>Email</h3>
-                <input type="text" id="name" name="name"><br/>
-            </div>
-            <button type="submit">Subscribe</button>
-            <button type="cancel">Back</button>
+            <form>
+                <div class="input">
+                    <h3>Name</h3>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input">
+                    <h3>Email</h3>
+                    <input type="email" id="name" name="name" required><br/>
+                </div>
+                <button type="submit">Subscribe</button>
+                <button type="cancel">Back</button>
+            </form>
         </div>
         <footer>
             <p>© 2019 Localvore Inc. All Rights Reserved</p>
