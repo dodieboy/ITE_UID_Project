@@ -87,7 +87,14 @@ footer p {
     display: none;
 }
 
+.artical img {
+    width: 20vw;
+}
+
 @media screen and (max-width: 800px) {
+    .artical img {
+        width: 40vw;
+    }
     .topnav {
         padding: 0
     }
