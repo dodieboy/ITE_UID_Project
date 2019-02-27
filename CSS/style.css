@@ -223,6 +223,9 @@ footer p {
         height: 100px;
         padding: 0;
     }
+    .content .input {
+        padding: 0 10%;
+    }
     .topnav {
         padding: 0
     }
