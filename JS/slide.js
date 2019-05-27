@@ -1,3 +1,9 @@
+/*
+SPDX-Short-Identifier: MIT
+(c) 2019 Alan Tan
+This code is licensed under MIT license (See LICENSE.txt for details)
+*/
+
 var slideIndex = 0;
 var slideSpeed = 10000; //ms
 autoShowSlides();
